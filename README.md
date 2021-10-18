@@ -1,6 +1,6 @@
 # Todo-List-using-Angular
 
-##Components Challenges
+Components Challenges
 1. Create a new Angular App Called “Todo”
 2. Serve that app
 3. Create a component called “todo” with the cli
