@@ -1,0 +1,31 @@
+.bt{
+  background-color: #ca72db;
+    -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: serif;
+    font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+@keyframes glowing {
+0% {
+background-color: #f02929;
+box-shadow: 0 0 5px #f02929;
+}
+50% {
+background-color: #f0470a;
+box-shadow: 0 0 20px #1103a3;
+}
+100% {
+background-color: #f02929;
+box-shadow: 0 0 5px #f02929;
+}
+}
+.bt{
+animation: glowing 1300ms infinite;
+}
